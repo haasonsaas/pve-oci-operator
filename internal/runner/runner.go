@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/evalops/pve-oci-operator/internal/reconciler"
-	"github.com/evalops/pve-oci-operator/internal/spec"
+	"github.com/haasonsaas/pve-oci-operator/internal/reconciler"
+	"github.com/haasonsaas/pve-oci-operator/internal/spec"
 )
 
 type Runner struct {

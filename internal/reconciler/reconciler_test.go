@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/evalops/pve-oci-operator/internal/pve"
-	"github.com/evalops/pve-oci-operator/internal/spec"
+	"github.com/haasonsaas/pve-oci-operator/internal/pve"
+	"github.com/haasonsaas/pve-oci-operator/internal/spec"
 )
 
 type fakeRegistry struct {
@@ -55,7 +55,7 @@ func TestReconcilerDeploysFreshService(t *testing.T) {
 	svc.Metadata.Name = "composer"
 	svc.Spec.Node = "node1"
 	svc.Spec.CTID = 160
-	svc.Spec.Image = "ghcr.io/evalops/composer"
+	svc.Spec.Image = "ghcr.io/haasonsaas/composer"
 	svc.Spec.Tag = "main"
 	svc.Spec.Rollout.Strategy = "recreate"
 
@@ -75,7 +75,7 @@ func TestReconcilerRollsOutWhenDigestChanges(t *testing.T) {
 	svc.Metadata.Name = "composer"
 	svc.Spec.Node = "node1"
 	svc.Spec.CTID = 160
-	svc.Spec.Image = "ghcr.io/evalops/composer"
+	svc.Spec.Image = "ghcr.io/haasonsaas/composer"
 	svc.Spec.Tag = "main"
 	svc.Spec.Rollout.Strategy = "recreate"
 	svc.Spec.Rollout.AutoRollback = true

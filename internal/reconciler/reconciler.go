@@ -7,10 +7,10 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/evalops/pve-oci-operator/internal/health"
-	"github.com/evalops/pve-oci-operator/internal/pve"
-	"github.com/evalops/pve-oci-operator/internal/registry"
-	"github.com/evalops/pve-oci-operator/internal/spec"
+	"github.com/haasonsaas/pve-oci-operator/internal/health"
+	"github.com/haasonsaas/pve-oci-operator/internal/pve"
+	"github.com/haasonsaas/pve-oci-operator/internal/registry"
+	"github.com/haasonsaas/pve-oci-operator/internal/spec"
 )
 
 type Reconciler struct {

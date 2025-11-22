@@ -6,14 +6,14 @@ import (
 	"testing"
 )
 
-const sampleYAML = `apiVersion: pve.evalops/v1
+const sampleYAML = `apiVersion: pve.haasonsaas/v1
 kind: Service
 metadata:
   name: composer-web
 spec:
   node: hephaestus-2
   ctid: 160
-  image: ghcr.io/evalops/composer-web
+  image: ghcr.io/haasonsaas/composer-web
   tag: main
   pullPolicy: digest
   resources:

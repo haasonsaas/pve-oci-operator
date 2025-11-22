@@ -1,4 +1,4 @@
-module github.com/evalops/pve-oci-operator
+module github.com/haasonsaas/pve-oci-operator
 
 go 1.24
 

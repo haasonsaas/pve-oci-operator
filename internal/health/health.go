@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/evalops/pve-oci-operator/internal/spec"
+	"github.com/haasonsaas/pve-oci-operator/internal/spec"
 )
 
 type Checker interface {

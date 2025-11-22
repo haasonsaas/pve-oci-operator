@@ -9,13 +9,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/evalops/pve-oci-operator/internal/config"
-	"github.com/evalops/pve-oci-operator/internal/health"
-	"github.com/evalops/pve-oci-operator/internal/pve"
-	"github.com/evalops/pve-oci-operator/internal/reconciler"
-	"github.com/evalops/pve-oci-operator/internal/registry"
-	"github.com/evalops/pve-oci-operator/internal/runner"
-	"github.com/evalops/pve-oci-operator/internal/state"
+	"github.com/haasonsaas/pve-oci-operator/internal/config"
+	"github.com/haasonsaas/pve-oci-operator/internal/health"
+	"github.com/haasonsaas/pve-oci-operator/internal/pve"
+	"github.com/haasonsaas/pve-oci-operator/internal/reconciler"
+	"github.com/haasonsaas/pve-oci-operator/internal/registry"
+	"github.com/haasonsaas/pve-oci-operator/internal/runner"
+	"github.com/haasonsaas/pve-oci-operator/internal/state"
 )
 
 func main() {

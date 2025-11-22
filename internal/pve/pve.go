@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/evalops/pve-oci-operator/internal/spec"
-	"github.com/evalops/pve-oci-operator/internal/state"
+	"github.com/haasonsaas/pve-oci-operator/internal/spec"
+	"github.com/haasonsaas/pve-oci-operator/internal/state"
 )
 
 type Client interface {
